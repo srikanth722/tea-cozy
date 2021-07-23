@@ -1,0 +1,143 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: underline;
+    margin-right: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#container-1 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url('resources/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 69px;
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#container-2 {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imgs {
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+#img-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.caption {
+    margin: 10px 0 25px 0;
+}
+
+#container-3 {
+    width: 1200px;
+    height: 600px;
+    background-image: url('resources/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-3 h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#textbox-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.textbox{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 40px 0 0;
+}
+
+#container-4 {
+    height: 200px;
+    text-align: center;
+}
+
+footer h5 {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#oakdale {
+    margin-right: 0;
+}
